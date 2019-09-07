@@ -1,11 +1,12 @@
 import React from 'react'
-import {} from 'react-native'
-import NJaal from './percobaan/5'
+import {View,Text} from 'react-native'
+import Route from './evaluasi/navigation'
+
 
 export default class App extends React.Component{
   render(){
     return(
-      <NJaal />
+      < Route/>
     )
   }
 }
